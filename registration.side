@@ -1,0 +1,340 @@
+{
+  "id": "88bbcc8b-767a-4e29-9214-077958d4e550",
+  "version": "2.0",
+  "name": "Cermati Assignments_Automation Testing",
+  "url": "https://www.cermati.com/app/gabung",
+  "tests": [{
+    "id": "6d4068d8-a04b-4dc3-a2cc-535f8d95922e",
+    "name": "Register",
+    "commands": [{
+      "id": "c52ba13d-cf11-46bb-958b-529bba8d4ade",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cermati.com/app/gabung",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af5b3a9f-da26-457b-bddb-e72d17ae9f00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "971e637b-3e32-423c-89fc-098c9966524b",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36b6496-70f1-40d1-a484-25d584dd6060",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "cermati.test123@gmail.com"
+    }, {
+      "id": "751cc5b0-89be-422b-8811-65289ef5372f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobilePhone",
+      "targets": [
+        ["id=mobilePhone", "id"],
+        ["name=mobilePhone", "name"],
+        ["css=#mobilePhone", "css:finder"],
+        ["xpath=//input[@id='mobilePhone']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71373831-1bad-4cc2-9870-641249f30c8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobilePhone",
+      "targets": [
+        ["id=mobilePhone", "id"],
+        ["name=mobilePhone", "name"],
+        ["css=#mobilePhone", "css:finder"],
+        ["xpath=//input[@id='mobilePhone']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "0811197442"
+    }, {
+      "id": "5f90bdbd-859e-45af-bf8a-b73ff76b0c92",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40819fa2-3295-49c6-960e-2508b98c83ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Cermatitest123"
+    }, {
+      "id": "deb4e6b1-9295-489a-b5c1-1b4c2b8f68a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e86b5f1-615d-49fe-bb21-fb9161f52dbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Cermatitest123"
+    }, {
+      "id": "0e0b3b75-62e6-40ef-b37a-c69b4bef6777",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a0da7d3-228f-4496-b31d-5ebb27b224a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Azzahra Putri"
+    }, {
+      "id": "459bdc74-9a82-4db4-bb5a-e830c5acd27d",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca4029ca-25d0-4fa2-9b79-21b2b3c6bf51",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Ramadhanty"
+    }, {
+      "id": "605d0547-e2ff-4108-a5a4-f03f99774444",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d044a4ec-fbab-4533-9393-c85229b8b904",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "Depok"
+    }, {
+      "id": "0980d2e0-1f09-4b96-8476-edcdc9299baf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container_Eq-qi",
+      "targets": [
+        ["css=.container_Eq-qi", "css:finder"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac16ef7-16a0-41f3-8825-80ce253acb66",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdc3817-94da-46aa-8709-bc02c3e5bde1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f2492be-9856-4a67-9014-cbeeff19d514",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db30f9b-b9fc-4e38-8d6a-53bdc3f7d090",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityAndProvince",
+      "targets": [
+        ["id=cityAndProvince", "id"],
+        ["name=cityAndProvince", "name"],
+        ["css=#cityAndProvince", "css:finder"],
+        ["xpath=//input[@id='cityAndProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "KOTA DEPOK"
+    }, {
+      "id": "6815b03b-5772-4e84-8353-f78f56d5eff6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container_Eq-qi",
+      "targets": [
+        ["css=.container_Eq-qi", "css:finder"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3546740-4e46-4e3b-b80c-f6e6f8a1fbd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RegistrationForm_form-container__button-text__2C52j",
+      "targets": [
+        ["css=.RegistrationForm_form-container__button-text__2C52j", "css:finder"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div[3]/div/button/p", "xpath:idRelative"],
+        ["xpath=//button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Daftar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17686d77-50f8-44b4-8519-a6bf692794f9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3431c87-aef7-4219-a541-347c6cff71af",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header_2xOrt",
+      "targets": [
+        ["css=.header_2xOrt", "css:finder"],
+        ["xpath=//div[@id='safe-area']/div[2]/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Verifikasi No. Handphone')]", "xpath:innerText"]
+      ],
+      "value": "Verifikasi No. Handphone"
+    }]
+  }],
+  "suites": [{
+    "id": "13267712-6682-42de-b797-c9e40b9fc016",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6d4068d8-a04b-4dc3-a2cc-535f8d95922e"]
+  }],
+  "urls": ["https://www.cermati.com/", "https://www.cermati.com/app/gabung"],
+  "plugins": []
+}
